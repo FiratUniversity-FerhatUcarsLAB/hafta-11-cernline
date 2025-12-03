@@ -1,14 +1,15 @@
 public class Exercise4_1 {
 
     public static void printAmerican(String day, int date, String month, int year) {
-        // TODO
+        System.out.println(day + ", " + month + " " + date + ", " + year);
     }
 
     public static void printEuropean(String day, int date, String month, int year) {
-        // TODO
+        System.out.println(day + " " + date + " " + month + " " + year);
     }
 
     public static void main(String[] args) {
-        // TODO: test methods
+        printAmerican("Wednesday", 3, "December", 2025);
+        printEuropean("Wednesday", 3, "December", 2025);
     }
 }
